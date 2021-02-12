@@ -1,0 +1,72 @@
+.target-burger {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 35px;
+    left: 50px;
+    display: block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 101;
+}
+
+.target-burger:hover {
+    cursor: pointer;
+    -webkit-animation: but-rotation 0.4s ease;
+    animation: but-rotation 0.4s ease;
+}
+.target-burger.toggled .buns .bun {
+    -webkit-transform: rotate(45deg) translateZ(0);
+    transform: rotate(45deg) translateZ(0);
+     -webkit-box-shadow: 0px 0px 7px 0.5px rgba(0,0,0,0);
+    -moz-box-shadow: 0px 0px 7px 0.5px rgba(0,0,0,0);
+    box-shadow: 0px 0px 7px 0.5px rgba(0,0,0,0);
+}
+.target-burger.toggled .buns li.bun:last-child {
+    -webkit-transform: rotate(-45deg) translateZ(0);
+    transform: rotate(-45deg) translateZ(0);
+}
+.buns {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    -webkit-transition: -webkit-transform 1s cubic-bezier(0.23, 1, 0.32, 1), color 1s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1), color 1s cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.bun {
+    width: 100%;
+    border-radius: 20px;
+    height: 7px;
+    background-color: white;
+    position: absolute;
+    top: 55%;
+    margin-top: -4.75px;
+    -webkit-transform: translateY(-7.75px) translateZ(0);
+    transform: translateY(-7.75px) translateZ(0);
+    -webkit-transition: -webkit-transform 1s cubic-bezier(0.23, 1, 0.32, 1), background-color 1s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: transform 1s cubic-bezier(0.23, 1, 0.32, 1), background-color 1s cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-box-shadow: 0px 0px 5px 0.5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0.5px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0.5px rgba(0,0,0,0.6);
+    transition: 0.5s;
+}
+.bun:last-child {
+    -webkit-transform: translateY(7.75px) translateZ(0);
+    transform: translateY(7.75px) translateZ(0);
+}
+
+@keyframes but-rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}

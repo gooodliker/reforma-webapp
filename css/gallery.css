@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Intro;
+    src: url(../fonts/Intro.otf);
+}
+
+@font-face {
+    font-family: Dreams;
+    src: url(../fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: Uni;
+    src: url(../fonts/UniSansThin.ttf);
+}
+
+.menu {
+    opacity: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    width: auto;
+    height: auto;
+    opacity: 0.6;
+    transition: 0.3s;
+    z-index: 4;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.logo:hover {
+    opacity: 0.9;
+}
+
+
+/*----Gallery----*/
+
+.gallery-wrap {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background: rgba(240,16,0,0.9);
+    background: -moz-linear-gradient(-45deg, rgba(240,16,0,0.9) 0%, rgba(122,0,2,0.9) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(240,16,0,0.9)), color-stop(100%, rgba(122,0,2,0.9)));
+    background: -webkit-linear-gradient(-45deg, rgba(240,16,0,0.9) 0%, rgba(122,0,2,0.9) 100%);
+    background: -o-linear-gradient(-45deg, rgba(240,16,0,0.9) 0%, rgba(122,0,2,0.9) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(240,16,0,0.9) 0%, rgba(122,0,2,0.9) 100%);
+    background: linear-gradient(135deg, rgba(240,16,0,0.9) 0%, rgba(122,0,2,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f01000', endColorstr='#7a0002', GradientType=1 );
+}
+
+.gallery {
+    height: 100%;
+    width: 100%;
+    background: url(../img/gallery.png) no-repeat;
+    background-position: center 1%;
+    background-size: 60%;
+}
+
+.zoom-gallery {
+    padding-top: 250px;
+    padding-bottom: 80px;
+    font-family: Intro;
+    animation-duration: 0.3s;
+}
+
+.mfp-bottom-bar {
+    display: none;
+}
+
+.mfp-arrow, .mfp-close {
+    transition: 0.3s ease;
+}
+
+.item-wrap {
+    height: 320px;
+    padding: 0px 30px 0px 30px;
+}
+
+.item-wrap:nth-child(3n-1) {
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+
+.item-wrap a {
+    outline: none;
+}
+
+.gal-item {
+    display: block;
+    height: 250px;
+    border-radius: 30px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.85);
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.85);
+}
+
+.gal-item img {
+    display: block;
+    border-radius: 30px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+	font-family: 'object-fit: cover';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----Footer-----*/
+
+footer {
+    position: relative;
+    height: 120px;
+    width: 100%;
+    background: #6A2622;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px 0px 13px 2px rgba(0,0,0,0.85);
+    box-shadow: 0px 0px 13px 2px rgba(0,0,0,0.85);
+}
+
+.foot-socials {
+    position: absolute;
+    height: 55px;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.vk-wrap, .insta-wrap {
+    display: inline-block;
+    margin: 0 10px;
+    opacity: 0.6;
+    transition: 0.3s ease;
+}
+
+.vk-wrap:hover, .insta-wrap:hover {
+    opacity: 1;
+}
+
+.foot-socials img {
+    width: 55px;
+}
+
+.powered-by {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.powered-by p, .powered-by a {
+    display: inline-block;
+    font-family: Uni;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s ease;
+}
+
+.powered-by a:hover {
+    opacity: 1;
+}
+
+.powered-logo {
+    display: none;
+    position: absolute;
+    left: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.devLOGO {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.devLOGO:hover {
+    opacity: 1;
+}
+
+.devLOGO img {
+    width: 50px;
+}

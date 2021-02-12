@@ -1,0 +1,795 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 2560px) and (max-height : 1600px) {
+    .comeTous {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .begin {
+        margin-top: 50px;
+    }
+    .right-now {
+        margin-bottom: 10px;
+    }
+    .comeTous p {
+		font-size: 80px;
+	}
+    .parall {
+        height: 555px;
+        width: 320px;
+    }
+    .access-wrap {
+        padding-right: 220px;
+    }
+    .get-access {
+        font-size: 35px;
+        padding: 10px 40px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width : 1440px) and (max-height : 1200px) {
+    .comeTous p {
+        font-size: 70px;
+	}
+    .access-wrap {
+        padding-right: 170px;
+    }
+}
+
+@media only screen and (max-width : 1440px) and (max-height : 900px) {
+	.comeTous p {
+        font-size: 60px;
+	}
+    .parall {
+        height: 435px;
+        width: 230px;
+    }
+    .access-wrap {
+        padding-right: 160px;
+    }
+    .get-access {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width : 1370px) and (max-height : 1024px) {
+    .comeTous p {
+        font-size: 55px;
+    }
+    .parall {
+        height: 415px;
+        width: 210px;
+    }
+    .access-wrap {
+        padding-right: 150px;
+    }
+    .get-access {
+        padding: 10px 30px;
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width : 1370px) and (max-height : 768px) {
+    .comeTous p {
+        font-size: 50px;
+    }
+    .parall {
+        height: 390px;
+        width: 210px;
+    }
+    .access-wrap {
+        padding-right: 130px;
+    }
+    .get-access {
+        padding: 10px 30px;
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width : 1280px) and (max-height : 1200px) {
+   .comeTous p {
+        font-size: 50px;
+    }
+    .parall {
+        height: 390px;
+        width: 210px;
+    }
+    .access-wrap {
+        padding-right: 130px;
+    }
+    .get-access {
+        padding: 10px 30px;
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width : 1280px) and (max-height : 720px) {
+    .comeTous p {
+        font-size: 45px;
+    }
+    .parall {
+        height: 350px;
+        width: 190px;
+    }
+    .right-now {
+        margin-bottom: 0px;
+    }
+    .access-wrap {
+        padding-right: 110px;
+    }
+    .get-access {
+        padding: 7px 23px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width : 1200px) {
+    .contact-wrap {
+        padding: 0 60px;
+    }
+    .section1-wrap {
+        padding: 100px 0 30px 0;
+    }
+    .info-wrap1 {
+        margin-left: 20%;
+    }
+    .info-wrap3 {
+        margin-left: 10% ;
+    }
+    .short-info {
+        font-size: 25px;
+    }
+    .check-wrap {
+        display: none;
+        width: 380px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .left {
+        padding: 0 0px;
+    }
+    .message {
+        padding: 0 0px;
+        border-left: none;
+    }
+    .but-wrap {
+        padding: 0 0px;
+    }
+}
+
+@media only screen and (max-width : 1024px) and (max-height : 1368px) {
+    .comeTous p {
+        font-size: 50px;
+    }
+    .parall{
+        height: 350px;
+        width: 190px;
+    }
+    .logo img {
+        width: 95px;
+    }
+    .right-now{
+        margin-bottom: 0;
+    }
+    .access-wrap {
+        padding-right: 130px;
+    }
+    .get-access {
+        font-size: 25px;
+        padding: 10px 30px;
+        margin-bottom: 15px;
+    }
+    .plus-but{
+        bottom: 40px;  
+        right: 40px;
+    }
+    .socials-wrap {
+        bottom: 90px;
+        right: 40px;
+    }
+    .target-burger {
+        top: 40px !important;
+    }
+    
+}
+
+@media only screen and (max-width : 1024px) and (max-height : 768px) {
+    .comeTous p {
+        font-size: 50px;
+    }
+    .parall {
+        height: 390px;
+        width: 210px;
+    }
+    .right-now {
+        margin-bottom: 5px;
+    }
+    .access-wrap {
+        padding-right: 130px;
+    }
+    .get-access {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .logo img{
+        width: 110px;
+    }
+    .item {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width : 1024px) and (max-height : 600px) {
+    .comeTous p {
+        font-size: 38px;
+    }
+    .parall {
+        border: solid 10px #2e2e2e;
+        height: 280px;
+        width: 150px;
+    }
+    .right-now {
+        margin-bottom: 0;
+    }
+    .access-wrap {
+        padding-right: 100px;
+    }
+    .get-access {
+        font-size: 17px;
+        padding: 7px 20px;
+        margin-bottom: 15px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .mouse-bounce img {
+        width: 30px;
+    }
+    .plus-but{
+        width: 30px;
+        height: 30px;
+    }
+    .socials-wrap img {
+        width: 30px;
+        height: 30px;
+    }
+    .vk{
+        margin-bottom: 10px;
+    }
+    .insta{
+        margin-bottom: 0px;
+    }
+    .plus-but{
+        bottom: 40px;  
+        right: 40px;
+    }
+    .socials-wrap {
+        bottom: 90px;
+        right: 40px;
+    }
+    .target-burger, .buns {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .bun {
+        height: 5px !important;
+    }
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {
+    .adv-wrap {
+        background-size: 120%;
+        background-position: center 5%;  
+    }    
+    .item p {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    .comeTous p {
+        font-size: 35px;
+    }
+    .access-wrap {
+        padding-right: 80px;
+    }
+    .item p {
+        font-size: 30px;
+    }
+    .contact-wrap {
+        padding: 0 0;
+    }
+    .info-block1, .info-block2, .info-block3 {
+        margin-bottom: 50px; 
+    }
+    .info-wrap1, .info-wrap2, .info-wrap3 {
+        margin-left: 25%;
+    }
+    .icons {
+        width: 90px;    
+    }
+    .short-info {
+        font-size: 35px;
+    }
+    
+    
+}
+
+@media only screen and (max-width : 992px) {
+    .comeTous{
+        display: none;
+    }
+    .parall {
+        display: none;
+    }
+    .gym-name {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .gym-name h1{
+        font-size: 105px;
+        font-family: Intro;
+        letter-spacing: 3px;
+        color: rgba(255,255,255,1);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.61);
+        animation-duration: 2s;
+    }
+    .gym-name p{
+        padding: 0;
+        font-size: 25px;
+        font-family: Intro;
+        letter-spacing: 10px;
+        color: rgba(255,255,255,0.6);
+        text-transform: uppercase;
+        animation-duration: 2.5;
+        animation-delay: 0.9s;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width : 768px) {
+    .info-wrap1, .info-wrap2, .info-wrap3 {
+        margin-left: 20%;
+    }
+    .icons {
+        width: 80px;    
+    }
+    .short-info {
+        font-size: 30px;
+    }
+    .section1-wrap {
+        padding-top: 100px;
+    }
+    .foot-socials {
+        left: auto;
+        right: 30px;
+    }
+    .powered-logo {
+        display: block;
+    }
+    .powered-by p, .powered-by a {
+        display: none;
+    }
+    
+}
+
+
+@media only screen and (max-width : 768px) and (max-height : 1024px) {
+     .comeTous p {
+        font-size: 40px;
+    }
+    .logo img {
+        width: 95px;
+    }
+    .access-wrap {
+        padding-right: 160px;
+    }
+    .get-access {
+        font-size: 20px;
+        padding: 10px 30px;
+        margin-bottom: 15px;
+    }
+    .plus-but{
+        bottom: 40px;  
+        right: 40px;
+    }
+    .socials-wrap {
+        bottom: 90px;
+        right: 40px;
+    }
+    .target-burger {
+        top: 40px !important;
+    }
+    .adv-wrap {
+        background-image: none;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (max-width : 768px) and (max-height : 768px) {
+    .comeTous{
+        display: none;
+    }
+    .parall {
+        display: none;
+    }
+    .mouse-bounce{
+        bottom: 10px;
+    }
+    .gym-name {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .gym-name h1{
+        font-size: 70px;
+        letter-spacing: 3px;
+    }
+    .gym-name p{
+        font-size: 15px;
+        letter-spacing: 7px;
+    }
+    .logo img {
+        width: 80px;
+    }
+    .target-burger {
+        top: 35px !important;
+        left: 45px !important;
+    }
+    .menu__link {
+        font-size: 30px !important;
+        padding-right: 0px !important;
+    }
+    .menu__inner {
+        text-align: center !important;
+        padding: 30vh 0 20vh 0 !important;
+    }
+    .slider {
+        top: 0%;
+        transform: translateY(-0%);
+    }
+    .owl-dots {
+        height: 60px;
+        margin-top: 0 !important;
+    }
+    .item {
+        margin-top: 0;
+    }
+    .section0-wrap {
+        min-height: 320px !important;
+        height: auto !important;
+    }
+    .item p {
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (max-width : 640px) and (max-height : 480px) {
+    .gym-name h1{
+        font-size: 60px;
+        letter-spacing: 3px;
+    }
+    .gym-name p{
+        font-size: 13px;
+        letter-spacing: 8px;
+    }
+    .logo img {
+        width: 70px;
+    }   
+    .target-burger {
+        top: 30px !important;
+        left: 40px !important;
+    }
+    .menu__link {
+        font-size: 25px !important;
+        padding-right: 0px !important;
+    }
+    .menu__inner {
+        text-align: center !important;
+        padding: 30vh 0 20vh 0 !important;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 600px) {
+    .gym-name h1 {
+        font-size: 90px;
+    }
+    .gym-name p {
+        font-size: 23px;
+        letter-spacing: 8px;
+    }
+    .owl-dot span {
+        margin: 10px 10px !important;
+    }
+    .content-wrapper {
+        top: 100px;
+    }
+    .info-block1, .info-block2, .info-block3 {
+        margin-bottom: 40px; 
+    }
+    .info-block3 {
+        margin-bottom: 0px;
+    }
+    .info-wrap1, .info-wrap2, .info-wrap3 {
+        margin-left: 10%;
+    }
+    .icons {
+        width: 70px;    
+    }
+    .short-info {
+        font-size: 25px;
+    }
+    .drop-line p {
+        font-size: 45px;
+    }
+    .check-wrap {
+        width: 100%;
+    }
+    .check-wrap p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .gym-name h1{
+        font-size: 65px;
+        letter-spacing: 3px;
+    }
+    .gym-name p{
+        font-size: 15px;
+        letter-spacing: 8px;
+    }
+    .logo {
+        top: 13px;
+    }
+    .menu {
+        width: 100% !important;
+    }
+    .plus-but {
+        display: none;
+    }
+    .socials-wrap {
+        display: none;
+    }
+    .adv-descr {
+        left: 25px;
+    }
+    .item p {
+        font-size: 15px;
+    }
+    .owl-dot span {
+        margin: 10px 10px !important;
+    }
+    .info-wrap1, .info-wrap2, .info-wrap3 {
+        margin-left: 10%;
+    }
+    .icons {
+        width: 60px;    
+    }
+    .short-info {
+        font-size: 24px;
+        white-space: normal;
+        margin-left: 10px;
+    }
+    .drop-line p {
+        font-size: 35px;
+    }
+    .check-wrap {
+        height: 50px;
+    }
+    .check-wrap input {
+        height: 50px;
+        width: 50px;
+    }
+    footer {
+        height: 100px;
+    }
+    .foot-socials {
+        height: 45px;
+    }
+    .vk-wrap, .insta-wrap {
+        margin: 0 5px;
+    }
+    .foot-socials img{
+        width: 45px;
+    }
+    .powered-logo img{
+        width: 40px;
+    }
+}
+
+
+@media only screen and (max-width : 415px) {
+    .info-wrap1, .info-wrap2, .info-wrap3 {
+        margin-left: 3%;
+    }
+    .info-block1, .info-block2, .info-block3 {
+        padding: 0 40px;
+    }
+    .icons {
+        width: 55px;    
+    }
+    .short-info {
+        font-size: 20px;
+        white-space: normal;
+        margin-left: 10px;
+    }
+    .section1-wrap {
+        padding-top: 70px;
+    }
+    
+    .form-wrap {
+        padding: 0 0;
+    }
+    .map-wrap {
+        padding: 0;
+    }
+    .left {
+        padding: 0 15px;
+    }
+    .message {
+        padding: 0 15px;
+        height: 200px;
+    }
+    .drop-line p {
+        font-size: 25px;
+    }
+    .check-wrap {
+        height: 40px;
+    }
+    .check-wrap input {
+        height: 40px;
+        width: 40px;
+    }
+    .check-wrap p {
+        font-size: 13px;
+    }
+    .but-wrap {
+        padding: 0 15px;
+    }
+    .foot-socials {
+        right: 25px;
+    }
+    .powered-logo {
+        left: 30px;
+    }
+}
+
+
+
+@media only screen and (max-width : 375px) {
+    .gym-name h1{
+        font-size: 55px;
+        letter-spacing: 3px;
+    }
+    .gym-name p{
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+    .item p {
+        font-size: 14px;
+    }
+    footer {
+        height: 80px;
+    }
+    .foot-socials {
+        height: 40px;
+    }
+    .foot-socials img{
+        width: 40px;
+    }
+    .powered-logo img{
+        width: 35px;
+    }
+}
+
+
+
+@media only screen and (max-width : 360px) {
+    
+    .owl-dots {
+        margin-top: 0 !important;
+    }
+    .item p {
+        font-size: 13.5px;
+    }
+    
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .gym-name h1{
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+    .gym-name p{
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+    .item p {
+        font-size: 13px;
+    }
+    .info-wrap1, .info-wrap2, .info-wrap3 {
+        margin-left: 0%;
+    }
+    .left {
+        padding: 0 5px;
+    }
+    .message {
+        padding: 0 5px;
+    }
+    .but-wrap {
+        padding: 0 5px;
+    }
+    .foot-socials {
+        right: 15px;
+    }
+    .powered-logo {
+        left: 20px;
+    }
+}
+
+
+
+/*-------MAX-HEIGHT--------*/
+
+
+@media only screen and (max-height : 414px) {
+    .item {
+        min-height: 99vh;
+    }
+}
+
+
+@media only screen and (max-height : 320px) {
+    
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (min-width : 1440px) {
+
+}
+
+
